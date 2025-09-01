@@ -1,0 +1,180 @@
+/* Body Design */
+body {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Navbar Design */
+.navbar {
+  background-color: #07553b !important;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  border: solid 1px #07553b;
+  border-radius: 10px;
+  color: #ced46a !important;
+  padding: 0.25rem 0.5rem;
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #ced46a !important;
+}
+
+.offcanvas {
+  color: #ced46a;
+  background-color: #07553b;
+}
+
+.navbar-toggler {
+  border: solid 1px #ced46a;
+  border-radius: 0px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(206, 212, 106, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #07553b;
+  border: solid 1px #ced46a;
+}
+
+.dropdown-item {
+  color: #ced46a;
+}
+
+.dropdown-item:hover {
+  background-color: #ced46a;
+  color: #07553b;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding-top: 80px; /* Raum für die feste Navbar */
+  padding-bottom: 20px;
+}
+
+/* Form Design */
+label {
+  color: #07553b;
+  font-weight: bold;
+}
+
+
+
+/* Table Design */
+.table-container {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+table { 
+  margin-bottom: 0;
+}
+
+thead th {
+  background-color: #07553b;
+  color: #ced46a;
+  border: none;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(206, 212, 106, 0.2);
+}
+
+tbody tr:hover {
+  background-color: rgba(206, 212, 106, 0.4);
+}
+
+/* DataTables Anpassungen */
+.dataTables_wrapper .dataTables_info {
+  color: #07553b !important;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  color: #07553b !important;
+  padding: 0.5em 1em;
+  margin: 0 2px;
+  border: 1px solid #07553b;
+  border-radius: 4px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #07553b;
+  color: #ced46a !important;
+  border: 1px solid #07553b;
+}
+
+/* Footer Design */
+footer {
+  background-color: #07553b;
+  color: #ced46a;
+  padding: 15px 0;
+  margin-top: auto;
+}
+
+footer a {
+  color: #ced46a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+
+  main {
+    padding-top: 70px;
+  }
+
+  .filter-section .col-md-6 {
+    margin-bottom: 1rem;
+  }
+
+  .table-responsive {
+    font-size: 0.9rem;
+  }
+
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_paginate {
+    text-align: center !important;
+    float: none !important;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .offcanvas-body {
+    padding: 1rem;
+  }
+
+  .table td,
+  .table th {
+    padding: 0.5rem;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.3em 0.6em;
+    margin: 0 1px;
+  }
+}
