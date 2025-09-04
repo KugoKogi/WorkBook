@@ -16,7 +16,7 @@ Diese Webanwendung zeigt CO₂-Emissionsdaten von Unternehmen nach Ländern in e
 ### Offcanvas Navigation
 ![Offcanvas Navbar](screenshots/offcanvas-navbar.png)
 
-### Kontakt Dropdown
+### Contakt Dropdown
 ![Contact Dropdown](screenshots/navbar-contact-dropdown.png)
 
 ---
