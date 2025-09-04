@@ -1,4 +1,4 @@
-# 🌱 CO2 Footprint — Interaktive Tabelle mit CO₂-Emissionen
+# 🌱 CO2 Footprint Interaktive Tabelle mit CO₂-Emissionen
 
 **Kurzbeschreibung**  
 Diese Webanwendung zeigt CO₂-Emissionsdaten von Unternehmen nach Ländern in einer interaktiven, filterbaren Tabelle. Die Anwendung ist als statisches Projekt umgesetzt und lädt externe Bibliotheken über CDN.
